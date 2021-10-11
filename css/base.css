@@ -17,3 +17,21 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+b {
+    color: #e33371;
+}
+
+em {
+    color: #2196f3
+    
+}
+
+u {    
+    color: #388e3c;
+}
+
+blockquote {
+    font-size: 1.4rem;
+    font-style: italic;
+}
