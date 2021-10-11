@@ -55,11 +55,11 @@
         position: relative;
     }
 
-    footer.footer-blog-page {
+    /* footer.footer-blog-page {
         position: absolute;
         width: 100%;
         top: calc(100vh - 8rem);
-    }
+    } */
 }
 
 @media (max-width: 739px) {
