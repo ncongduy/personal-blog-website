@@ -23,6 +23,12 @@
     margin-right: 4rem;
 }
 
+#author-info figcaption {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-right: 4rem;
+}
+
 #author-info ul {
     width: 50%;
 }
@@ -37,7 +43,7 @@
 /* Responsive for blog-page */
 @media (min-width: 740px) and (max-width: 1023px) {
     #author-info {
-        margin-top: calc((100vh - 4rem - 30rem - 22.7rem - 8rem)/2);
+        margin-top: calc((100vh - 4rem - 30rem - 22.7rem - 8rem - 1.6rem)/2);
     }
 
     #author-info img {
@@ -69,10 +75,19 @@
         flex-direction: column;
     }
 
-    #author-info img {
-        height: auto;
+    #author-info figure {
         width: 80%;
         margin: 0 auto;
+    }
+
+    #author-info img {
+        height: auto;
+        width: 100%;
+    }
+
+    #author-info figcaption {
+        margin: 0;
+        width: 100%;
     }
 
     #author-info ul {
