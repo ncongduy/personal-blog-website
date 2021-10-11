@@ -1,0 +1,73 @@
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+    header nav {
+        padding-left: 0;
+    }
+
+    nav .nav-list {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #about figure img {
+        width: 80%;
+    }
+
+    #travel li img {
+        height: 20rem;
+    }
+
+    #contact .contact-block {
+        margin: 0 0 9rem 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #contact {
+        width: 90%;
+    }   
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    header .mobile-menu {
+        display: block;
+    }
+
+    header nav {
+        height: auto;
+        top: 5rem;
+    }
+
+    header .nav-list {
+        display: none;
+    }
+
+    header .nav-list.open {
+        display: block;
+    }
+
+    #contact {
+        width: 100%;
+    }
+
+    #contact .title {
+        margin: 0;
+    }
+
+    #contact .contact-block {
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+    }
+
+    #contact .contact-block img {
+        width: 100%;
+    }
+
+    #contact .mobile-mb-40 {
+        margin: 4rem;
+    }
+}

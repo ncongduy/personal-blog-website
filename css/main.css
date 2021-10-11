@@ -30,6 +30,22 @@ header {
     padding-top: 60rem;
 }
 
+header .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: none;
+    background-color: var(--white-color);
+    width: 100%;
+    padding: 1rem;
+}
+
+header .mobile-icon {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
 header nav {
     position: fixed;
     width: 100%;
@@ -63,6 +79,7 @@ nav .nav-list {
     color: var(--text-color);
     font-size: 1.6rem;
     font-weight: 500;
+    padding: 1rem;
 }
 
 .nav-list .nav-item i {
@@ -85,7 +102,7 @@ nav .nav-list {
 }
 
 #about figure img {
-    width: 28%;
+    width: 50%;
 }
 
 #about figure figcaption {   
