@@ -1,0 +1,60 @@
+/*  */
+/* Main */
+/*  */
+
+/* About me */
+#about p {
+    font-size: 1.6rem;
+    line-height: 1.6; 
+    text-align: justify;
+}
+
+#about figure {
+    text-align: center;
+}
+
+#about figure img {
+    width: 50%;
+}
+
+#about figure figcaption {   
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+/* My travel */
+#travel ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#travel ul li {
+    margin: 0.8rem;
+    list-style: none;
+}
+
+#travel li img {
+    height: 15rem;
+}
+
+/* Contact */
+#contact .contact-block {
+    margin: 0 10rem 9rem 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+#contact .picture img {
+   width: 40rem;
+}
+
+#contact .contact-info {
+    font-size: 2rem;
+    line-height: 1.6;    
+}
+
+#contact .contact-info .icon {
+    margin-right: 1rem;
+}

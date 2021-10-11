@@ -1,0 +1,64 @@
+/*  */
+/* Header */
+/*  */
+header {   
+    position: relative;
+    background: url('../assets/img/header-background.jpg') center / cover no-repeat;
+    padding-top: 60rem;
+}
+
+header .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: none;
+    background-color: var(--white-color);
+    width: 100%;
+    padding: 1rem;
+}
+
+header .mobile-icon {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+header nav {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    background-color: var(--white-color);
+}
+
+nav .nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-list .nav-item {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.nav-list .nav-item:hover {
+    background-color: #ccc;
+}
+
+.nav-list .nav-item a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.nav-list .nav-item i {
+    margin-right: 0.8rem;
+}
